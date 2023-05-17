@@ -1,0 +1,41 @@
+.contact {
+  gap: 2rem !important;
+
+  .input-send-message {
+    background: var(--color-gray-150);
+    border-radius: 1.5rem;
+    border: transparent;
+
+    padding: 1.125rem 1.8125rem;
+    min-width: 24.5rem;
+
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: var(--color-purple-400);
+  }
+
+  .emergency-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2.5rem;
+
+    .phone:hover {
+      cursor: pointer;
+    }
+
+    .shield:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .container {
+    flex-direction: column;
+  }
+  .input-send-message {
+    padding: 0.5rem 2rem;
+  }
+}
